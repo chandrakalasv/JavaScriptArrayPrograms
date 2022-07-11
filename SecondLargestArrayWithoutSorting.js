@@ -9,7 +9,7 @@ function generateRandomNumber() {
 }
 
 console.log("The Generated Array is:")
-for (let index = 0; index < 3; index++) {
+for (let index = 0; index < 10; index++) {
     numberArray.push(generateRandomNumber());
     console.log(numberArray[index] + " ");
 }
